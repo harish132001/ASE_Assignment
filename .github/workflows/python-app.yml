@@ -25,11 +25,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt  # Replace with your requirements file if applicable
 
-      - name: Lint with flake8
-        run: |
-          flake8 app.py test_app.py --count --exit-zero --max-line-length=127 --statistics
-          # Adjust the linting command based on your structure
-
       - name: Test with pytest
         run: |
           pytest test_app.py  # Run tests using pytest against test_app.py
