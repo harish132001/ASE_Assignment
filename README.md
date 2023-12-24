@@ -8,7 +8,7 @@ The Flask Sorting App provides a user interface to input a list of numbers and s
 
 # **Features**
 
-Input: Allows users to input a list of numbers in the provided space.
-Algorithms: Provides options to select from various sorting algorithms.
-Sorting: Sorts the input list based on the chosen algorithm.
-Results: Displays the original and sorted lists along with the chosen algorithm.
+**Input:** Allows users to input a list of numbers in the provided space.
+**Algorithms:** Provides options to select from various sorting algorithms.
+**Sorting:** Sorts the input list based on the chosen algorithm.
+**Results:** Displays the original and sorted lists along with the chosen algorithm.
