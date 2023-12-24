@@ -82,7 +82,7 @@ def sort():
         sorted_numbers = bubble_sort(copy.deepcopy(numbers))
         algorithm_used = 'Bubble Sort'
     else:
-        return "Invalid choice"
+        return "Invalid choice of sorting algorithm"
 
     numbers_str = ', '.join(str(num) for num in numbers)
 
