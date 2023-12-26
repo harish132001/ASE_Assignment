@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Sorting Algorithm</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_index.css') }}">
+</head>
+<body>
+    <h1>Sorting Algorithm Selector</h1>
+    <form action="/sort" method="post">
+        <label for="numbers">Enter numbers (space-separated):</label><br>
+        <input type="text" id="numbers" name="numbers" required><br><br>
+        <label for="algorithm">Select sorting algorithm:</label>
+        <select name="algorithm" id="algorithm">
+            <option value="insertion">Insertion Sort</option>
+            <option value="merge">Merge Sort</option>
+            <option value="bubble">Bubble Sort</option>
+        </select><br><br>
+        <input type="submit" value="Sort">
+    </form>
+</body>
+</html>
 
